@@ -1,0 +1,71 @@
+body{
+    background: #407088;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Centers the game in the container */
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 buttons per row */
+    gap: 10px; /* Space between buttons */
+}
+
+.bx {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    border: 1px solid #333;
+    font-size: 40px;
+    color: brown;
+    cursor: pointer;
+    border-radius: 10%;
+
+}
+.rss{
+    display: flex;
+    justify-content: center;
+
+}
+.reset{
+    margin-top: 50px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    color: beige;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: black;
+}
+.msg-container {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+#new-btn{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    color: beige;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: black; 
+}
+p{
+    color: bisque;
+    font-size: 3vmin;
+}
+
+.hide{
+    display: none;
+}
+
